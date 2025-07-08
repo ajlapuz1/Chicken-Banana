@@ -71,7 +71,7 @@ return (
 {revealed[index] ? (
 <img src={item === 'banana' ? bananaUrl : chickenUrl} alt={item} />
 ) : (
-<div className="hidden-tile">?</div>
+<div className="hidden-tile">{index+1}</div>
 )}
 </div>
 ))}
